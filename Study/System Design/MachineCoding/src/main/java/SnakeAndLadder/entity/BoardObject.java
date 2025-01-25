@@ -4,8 +4,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.List;
-
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -18,5 +16,5 @@ public abstract class BoardObject {
     }
     public abstract String getType();
 
-    public abstract boolean isValidObject();
+    public abstract boolean isValidPosition();
 }

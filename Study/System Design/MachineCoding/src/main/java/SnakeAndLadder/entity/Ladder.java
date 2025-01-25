@@ -11,7 +11,7 @@ public class Ladder extends BoardObject{
         super(startPoint, endPoint);
     }
 
-    public boolean isValidObject(){
+    public boolean isValidPosition(){
         return (startPoint < endPoint);
     }
 

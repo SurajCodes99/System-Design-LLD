@@ -78,7 +78,7 @@ public class SnakeAndLadderExecution {
             Snake newSnake = new Snake(startPos,endPos);
 
             // Only valid Snakes make it to the board:
-            if(newSnake.isValidObject()) listOfBoardObjects.add(newSnake);
+            if(newSnake.isValidPosition()) listOfBoardObjects.add(newSnake);
             else{
                 System.out.println("Invalid Snake entered. Game over!");
                 break;
@@ -94,7 +94,7 @@ public class SnakeAndLadderExecution {
             Ladder newLadder = new Ladder(startPos,endPos);
 
             // Only valid Snakes make it to the board:
-            if(newLadder.isValidObject()) listOfBoardObjects.add(newLadder);
+            if(newLadder.isValidPosition()) listOfBoardObjects.add(newLadder);
             else{
                 System.out.println("Invalid Ladder entered. Game over!");
                 break;
